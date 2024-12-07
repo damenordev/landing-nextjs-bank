@@ -8,7 +8,7 @@ export interface IBackgroundRadialProps {
 const BACKGROUND_IMAGE_LEFT = '/images/background-floated-left.png'
 const BACKGROUND_IMAGE_RIGHT = '/images/background-floated-right.png'
 
-export const BackgroundRadial: React.FC<IBackgroundRadialProps> = ({ position }) => {
+export const BackgroundRadial: React.FC<IBackgroundRadialProps> = ({ position = 'left' }) => {
   const imageSrc = position === 'left' ? BACKGROUND_IMAGE_LEFT : BACKGROUND_IMAGE_RIGHT
   return (
     <div

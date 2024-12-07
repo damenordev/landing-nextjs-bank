@@ -1,3 +1,5 @@
+export * from './AnimatedCounter'
 export * from './BackgroundRadial'
 export * from './Reveal'
+export * from './TextGradient'
 export * from './TransitionMotion'

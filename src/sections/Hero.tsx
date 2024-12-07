@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { BackgroundRadial, Reveal, TransitionMotion } from '@/ui'
+import { BackgroundRadial, Reveal, TextGradient, TransitionMotion } from '@/ui'
 
 export const Hero = () => {
   return (
@@ -12,7 +12,7 @@ export const Hero = () => {
           <Reveal>
             <h1 className="text-5xl font-semibold">
               El nuevo
-              <span className="font-secondary block bg-clip-text text-transparent bg-blueLight leading-snug -mb-2.5">banco digital</span>
+              <TextGradient className="font-secondary block leading-snug -mb-2.5">banco digital</TextGradient>
               para todos
             </h1>
           </Reveal>
@@ -24,7 +24,7 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <div className="my-8">
-              <Link href="#clients" className="px-4 py-3 rounded-md bg-blueRadial">
+              <Link href="#clients" className="px-4 py-3 rounded-md bg-blueRadial text-neutral-950 font-bold ">
                 Empieza ahora
               </Link>
             </div>
@@ -34,6 +34,7 @@ export const Hero = () => {
           <Image src="/images/cards-block.png" alt="Card" width={450} height={450} className="h-auto w-72 md:w-full" />
         </TransitionMotion>
       </div>
+      
     </div>
   )
 }
