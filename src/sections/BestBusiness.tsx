@@ -26,10 +26,10 @@ const dataFeaturesBusiness = [
 
 export function BestBusiness() {
   return (
-    <div className="relative px-6" id="features">
+    <div className="relative px-6 pt-16 md:pt-0" id="features">
       <BackgroundRadial />
       <div className="grid max-w-5xl mx-auto md:grid-cols-2">
-        <div className="grid items-center py-5 md:p-8">
+        <div className="order-2 grid items-center py-5 md:p-8">
           {dataFeaturesBusiness.map(({ id, icon, title, description }) => (
             <Reveal key={id}>
               <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-3xl transition-colors group hover:bg-neutral-900">
@@ -42,7 +42,7 @@ export function BestBusiness() {
             </Reveal>
           ))}
         </div>
-        <div>
+        <div className='order-1'>
           <Reveal>
             <h2 className="text-5xl font-semibold">
               <TextGradient className="block font-secondary">Tú haces el negocio</TextGradient>
@@ -65,7 +65,9 @@ export function BestBusiness() {
           </Reveal>
         </div>
       </div>
-      <AnimatedCounter />
+      <div className="mt-20 md:mt-40">
+        <AnimatedCounter />
+      </div>
     </div>
   )
 }
