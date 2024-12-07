@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: ILayout) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={cn('flex flex-col', getFontsVariables())}>{children}</body>
+      <body className={cn('bg-neutral-950 text-white selection:bg-primary selection:text-primary-foreground', getFontsVariables())}>{children}</body>
     </html>
   )
 }
