@@ -20,6 +20,10 @@ export default {
       boxShadow: {
         dark: '0px 20px 100px -10px rgba(66, 71, 91, 0.1)',
       },
+      fontFamily: {
+        primary: ['var(--font-primary)', 'sans'],
+        secondary: ['var(--font-secondary)', 'sans-serif'],
+      },
     },
   },
   plugins: [],

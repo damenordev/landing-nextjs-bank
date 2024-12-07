@@ -1,7 +1,7 @@
-import { Borel, Outfit } from 'next/font/google'
+import { Spicy_Rice, Comfortaa } from 'next/font/google'
 
-const fontPrimary = Outfit({ subsets: ['latin'], variable: '--font-primary' })
-const fontSecondary = Borel({ subsets: ['latin'], variable: '--font-secondary', weight: ['400'] })
+const fontPrimary = Comfortaa({ subsets: ['latin'], variable: '--font-primary' })
+const fontSecondary = Spicy_Rice({ subsets: ['latin'], variable: '--font-secondary', weight: ['400'] })
 
 export const getFontsVariables = () => {
   return `${fontPrimary.variable} ${fontSecondary.variable}`

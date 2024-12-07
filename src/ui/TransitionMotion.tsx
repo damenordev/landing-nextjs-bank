@@ -36,12 +36,10 @@ export const TransitionMotion = ({ children, className }: ITransitionMotion) => 
   const ref = useRef(null)
   const isInView = useInView(ref, { once: false })
   const mainControls = useAnimation()
-  const slideControls = useAnimation()
 
   useEffect(() => {
     if (!isInView) return
     mainControls.start('visible')
-    slideControls.start('visible')
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInView])
 
