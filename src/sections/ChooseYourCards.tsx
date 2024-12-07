@@ -4,6 +4,7 @@ import 'swiper/css/effect-cards'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCards } from 'swiper/modules'
 import Image from 'next/image'
+
 import { BackgroundRadial, Reveal, TextGradient, TransitionMotion } from '@/ui'
 
 const dataCards = [
@@ -21,9 +22,9 @@ const dataCards = [
   },
 ]
 
-export function ChooseYourCards() {
+export const ChooseYourCards = () => {
   return (
-    <div className="relative px-6 py-20 md:py-48" id="tarjetas">
+    <div className="relative px-6 py-20" id="tarjetas">
       <BackgroundRadial />
       <div className="block max-w-5xl mx-auto lg:grid lg:grid-cols-2">
         <Reveal>

@@ -24,7 +24,7 @@ const dataFeaturesBusiness = [
   },
 ]
 
-export function BestBusiness() {
+export const BestBusiness = () => {
   return (
     <div className="relative px-6 pt-16 md:pt-0" id="features">
       <BackgroundRadial />
@@ -42,7 +42,7 @@ export function BestBusiness() {
             </Reveal>
           ))}
         </div>
-        <div className='order-1'>
+        <div className="order-1">
           <Reveal>
             <h2 className="text-5xl font-semibold">
               <TextGradient className="block font-secondary">Tú haces el negocio</TextGradient>

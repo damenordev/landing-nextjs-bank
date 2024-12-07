@@ -29,7 +29,7 @@ const dataHeader = [
   },
 ]
 
-export function Header() {
+export const Header = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false)
 
   return (

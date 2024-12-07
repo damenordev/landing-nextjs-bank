@@ -1,4 +1,4 @@
-import { Header, Hero, BestBusiness, ChooseYourCards } from '@/sections'
+import { Header, Hero, BestBusiness, ChooseYourCards, ControlBilling } from '@/sections'
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Hero />
       <BestBusiness />
       <ChooseYourCards />
+      <ControlBilling />
     </>
   )
 }
