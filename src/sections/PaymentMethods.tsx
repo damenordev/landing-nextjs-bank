@@ -71,7 +71,7 @@ export const PaymentMethods = () => {
         </Swiper>
       </div>
 
-      <div className="px-6 my-20">
+      <div className="px-6 my-32">
         <div className="max-w-5xl px-4 py-6 mx-auto border-transparent bg-neutral-900/50 backdrop-blur-md md:px-16 md:py-12 shadow-dark rounded-3xl">
           <div className="grid items-center md:grid-cols-2">
             <div className="my-8">

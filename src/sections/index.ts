@@ -1,6 +1,7 @@
 export * from './BestBusiness'
 export * from './ChooseYourCards'
 export * from './ControlBilling'
+export * from './Footer'
 export * from './Header'
 export * from './Hero'
 export * from './PaymentMethods'

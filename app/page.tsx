@@ -1,4 +1,4 @@
-import { Header, Hero, BestBusiness, ChooseYourCards, ControlBilling, Testimonials, PaymentMethods } from '@/sections'
+import { Header, Hero, BestBusiness, ChooseYourCards, ControlBilling, Testimonials, PaymentMethods, Footer } from '@/sections'
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <ControlBilling />
       <Testimonials />
       <PaymentMethods />
+      <Footer />
     </>
   )
 }
